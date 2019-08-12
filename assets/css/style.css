@@ -1,0 +1,36 @@
+@font-face {
+    font-family: typewriterfont;
+    src: url("../typewriter/TravelingTypewriter.ttf")
+}
+body {
+    font-family: typewriterfont;
+    background: black;
+}
+.top {
+    background: black !important;
+}
+.topword {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+.imgforclue {
+    background: black;
+}
+.padding {
+    visibility: hidden;
+}
+.right {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#clueimage {
+    background-image: url('../images/revolver.jpg');
+    border: 5px solid white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35em;
+}
